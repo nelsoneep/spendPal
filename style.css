@@ -13,11 +13,11 @@ body{
     height: 100vh;
     margin: 0px auto 0px;
     background: linear-gradient(
-        to left top,
+        to top,
+        #03466E 0%,
         #03466E 50%,
-        #03466E 50%,
-        #fff 0%,
-        #fff 50%
+        #fff 50%,
+        #fff 100%
     );
     position: relative;
 }
