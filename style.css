@@ -1,0 +1,239 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+body{
+    background: darkmagenta;
+}
+.container{
+    width: 100%;
+    max-width: 420px;
+    height: 100vh;
+    margin: 0px auto 0px;
+    background: linear-gradient(
+        to left top,
+        #03466E 50%,
+        #03466E 50%,
+        #fff 0%,
+        #fff 50%
+    );
+    position: relative;
+}
+.container2{
+    width: 100%;
+    max-width: 420px;
+    height: 100vh;
+    margin: 0px auto 0px;
+    background: #fff;
+    position: relative;
+}
+.landing-page{
+    position: absolute;
+    margin: 100px;
+    height: 85vh;
+    padding: 10px;
+    
+}
+.imgDiv{
+    margin-bottom: 180%;
+    
+}
+.imgDiv img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+.landing-page #getStarted{    
+   /* position: absolute;
+   left: 50px; */
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family:'Poppins',sans-serif;
+    text-align: center;
+    margin: auto;
+    background: #54AFE6;
+    color: azure;
+    border: none;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+/* CREATE ACCOUNT page styles */
+
+.container2{
+    padding-top: 4%;
+    height: 100vh;
+}
+.container2 h1{
+    text-align: center;
+    width: 100%;
+    margin-bottom: 25px;
+    font-family: 'Poppins',sans-serif;
+    color: #03466E;
+    /* font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+
+}
+
+.details{
+    width: 100%;
+    /* max-width: 250px; */
+    margin: 10px auto;
+    padding: 20px;
+    /* background-color: #54AFE6; */
+}
+
+.details label{
+    display: block;
+    margin-bottom: 9px;   
+    font-weight: bold;
+}
+.details input{
+    font-size: 18px;
+    font-family: 'Poppins',sans-serif;
+    width: 100%;
+    height: 45px;
+    padding: 16px;
+    border-radius: 15px;
+    border: none;
+    border:3px solid #6890a8;
+    background: #f0efef;
+}
+.details input:focus{
+    outline: none !important;
+    border-color: #719ECE;
+    box-shadow: 0 0 10px #719ECE;
+}
+form .sin{
+  background-color:#03466E;  
+  padding: 20px;
+  border-radius: 20px;
+  width: 100%;
+  max-width: 220px;
+  margin: 10px 100px 80px 120px;
+  outline: 0px;
+  border: 0px;
+  color: #fff;
+  font-size: 18px;
+  font-family: 'Poppins',sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+}
+form .sin:hover{
+    background-color: #356b8b;
+}
+
+.streamApp{
+    margin-top: 5px;
+    margin-bottom: 35px;
+    margin-left: 50px;
+    padding: 3px;
+    /* border: 1px solid red; */
+    width: 80%;
+    height: auto;
+}
+.stream .fa-brands{
+    align-self: center;
+}
+.stream p a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Poppins',sans-serif;
+    color: #000;
+}
+.stream{
+    display: flex;
+    gap: 0.5rem;
+    background-color:#f3f0f0 ;
+    width: 90%;
+    height: auto;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 18px;
+}
+
+.alreadyHave{
+    margin-top: 35px;
+    margin-left: 30px;
+    display: flex;
+    gap: 9rem;
+    font-size: 18px;
+    font-family: 'Poppins',sans-serif;
+    /* border: 1px solid green; */
+}
+.alreadyHave p{
+    color: #000;
+    font-family: 'Poppins',sans-serif;
+    font-weight: bold;
+}
+.alreadyHave a{
+    color: #54AFE6;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Poppins',sans-serif;
+}
+/* login page styles */
+.assist{
+    margin-top: 10px;
+    margin-left: 22px;
+    margin-right: 21px;
+    margin-bottom: 35px;
+    display: flex;
+    gap: 1rem;
+}
+.assist p:nth-of-type(1) {
+    flex-grow: 3;
+}
+.error{
+    /* display: none; */
+    margin: 5px 10px 15px 25px;
+    color: red;
+    font-style: italic;
+}
+.loginInForm {
+    margin-bottom: 32%;
+}
+.dontHave{
+    width: 100%;
+    margin-left:22px ;
+    max-width: 390px;
+    display: flex;
+    gap: 3rem;
+}
+.dontHave p{
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+.dontHave a{
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color:#54AFE6;
+    text-decoration: none;
+}
+
+/* MODAL STYLES */
+#form-modal{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    background: rgba(0,0,0,0.5);
+}
+#fmodal-content{
+    background: #fff;
+    width: 100%;
+    max-width: 400px;  
+    margin: 30% auto;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),
+    0, 7px, 20px, 0 rgba(0,0,0,0.2);
+}

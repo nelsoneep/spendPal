@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpendPal</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- FONTS AWESOME KIT  -->
+    <script src="https://kit.fontawesome.com/b3fb7e015b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div class="container2">
+        <h1>Create Account</h1>
+        <form action="#">
+            <div class="details">
+                <label for="usename">USERNAME</label>
+                <input type="text" placeholder="Enter Unique user ID" name="username">
+            </div>
+            <div class="details">
+                <label for="password">PASSWORD</label>
+                <input type="password" placeholder="Enter Password" name="password">
+            </div>
+            <button class="sin" id="signUpbtn" onclick="signUpD()">SIGN UP</button>
+        </form>
+        <div class="streamApp">
+           <div class="stream">
+                <i class="fa-brands fa-apple fa-xl"></i>
+                <p><a href="www.yahoo.com" target="_blank">Continue with Apple</a></p>
+           </div>
+           <div class="stream">
+                <img class="fa-xl google" src="images/🦆 icon _google icon_.jpg">
+                <p><a href="wwww.gmail.com" target="_blank">Continue with Google</a></p>
+           </div>
+        </div>      
+
+        <div class="alreadyHave">
+            <p>Have an account?</p>
+            <a href="login.html">Log in </a>
+        </div>
+        <div class="line"></div>
+    </div>
+    <!-- SIGNUP MODAL -->
+    <div id="form-modal">
+        <div id="fmodal-content">
+            <header style="display: flex; border-bottom:3px solid #000;">
+                <h2 style="color: rgb(145, 189, 248);margin: 10px;" 
+                >FILL UP THE FORM</h2>
+                <span style="font-size: 40px;float: right;color: #ccc; cursor: pointer;"
+                id="closeBtnn" onclick="closeApps()"
+                >&times;</span>
+            </header>
+            <form action="#">
+                <div style="display: flex;">
+                    <input style="font-size: 16px;height: 20px;" type="text" placeholder="enter firstname"><input style="font-size: 16px;height: 20px;" type="text" placeholder="enter lastname">
+                </div>
+                <div style="display: flex;">
+                    <input style="font-size: 16px;height: 20px;" type="number" placeholder="enter phoneNumber"><input style="font-size: 16px;height: 20px;" type="text" placeholder="enter Address">
+                </div>
+            </form>
+            
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpendPal</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- FONTS AWESOME KIT  -->
+    <script src="https://kit.fontawesome.com/b3fb7e015b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div class="container2">
+        <h1>Log in</h1>
+        <form action="#" class="loginInForm">
+            <div class="details">
+                <label for="usename">USERNAME</label>
+                <input type="text" placeholder="Enter Username" name="username">
+            </div>
+            <div class="details">
+                <label for="password">PASSWORD</label>
+                <input type="password" placeholder="Enter Password" name="password">
+            </div>
+            <p class="error">pls enter the correct password</p>
+
+            <div class="assist">
+                <input type="radio">
+                <p id="rem">Remember me</p>
+                <a href="#" style="text-decoration: none;color: #000;">Forget Password?</a>
+            </div>
+           
+            <button class="sin" id="loginbtn">LOGIN</button>
+        </form>      
+
+        <div class="dontHave">
+            <p>Dont have an account?</p>
+            <a href="createAcct.html">Create Account</a>
+        </div>
+        <!-- APPLIKE MODAL -->
+        <div id="form-modal">
+            <div id="fmodal-content">
+                <header style="display: flex; border-bottom:3px solid #000;">
+                    <h2 style="color: rgb(145, 189, 248);margin: 10px;" 
+                    >Access Granted to the App</h2>
+                    <span style="font-size: 40px;float: right;color: #ccc; cursor: pointer;"
+                    id="closeBtn"
+                    >&times;</span>
+                </header>
+                <div style="display: flex;">
+                    <div style="margin: 10px;background:rgb(231, 253, 31) ;"><p>welcome to spendPal</p></div>
+                    <div style="margin: 10px;background:rgb(0, 255, 13) ;"><p>we help you track your spending</p></div>
+                    <div style="margin: 10px;background: rgb(0, 217, 255);"><p>ready to launch</p></div>
+
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
