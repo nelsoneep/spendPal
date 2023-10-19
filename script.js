@@ -4,10 +4,25 @@ var formModal = document.getElementById('form-modal');
 var closeBtn = document.getElementById('closeBtn');
 var signUp = document.getElementById('signUpbtn');
 var closeBtnn = document.getElementById('closeBtnn');
+// variables of notification
+var notifyBar = document.getElementById('notifyBar');
+var del = document.getElementById('delete');
+
+function emptyNotice () {
+    notifyBar.style.display="none";
+}
+
+del.addEventListener("click", emptyNotice);
+
+// populate the Notification page
+
+function populateNotice(){
+    
+}
 
 logIn.addEventListener('click',app);
 function app() {
-    formModal.style.display = 'block';
+    window.location.href = "home.html";
 }
 
 closeBtn.addEventListener('click',closeApp);
@@ -23,3 +38,4 @@ function signUpD(){
 function closeApps() {
     formModal.style.display = 'none';
 }
+

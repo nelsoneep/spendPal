@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="style.css">
     <!-- FONTS AWESOME KIT  -->
     <script src="https://kit.fontawesome.com/b3fb7e015b.js" crossorigin="anonymous"></script>
+    <!-- material outline font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <body>
 
@@ -20,6 +22,9 @@
             <div class="details">
                 <label for="password">PASSWORD</label>
                 <input type="password" placeholder="Enter Password" name="password">
+                <span class="pwdLock material-symbols-outlined">
+                    visibility_off
+                </span>
             </div>
             <button class="sin" id="signUpbtn" onclick="signUpD()">SIGN UP</button>
         </form>
@@ -30,7 +35,7 @@
            </div>
            <div class="stream">
                 <img class="fa-xl google" src="images/🦆 icon _google icon_.jpg">
-                <p><a href="wwww.gmail.com" target="_blank">Continue with Google</a></p>
+                <p><a href="account.google.com" target="_blank">Continue with Google</a></p>
            </div>
         </div>      
 
@@ -38,29 +43,9 @@
             <p>Have an account?</p>
             <a href="login.html">Log in </a>
         </div>
-        <div class="line"></div>
     </div>
-    <!-- SIGNUP MODAL -->
-    <div id="form-modal">
-        <div id="fmodal-content">
-            <header style="display: flex; border-bottom:3px solid #000;">
-                <h2 style="color: rgb(145, 189, 248);margin: 10px;" 
-                >FILL UP THE FORM</h2>
-                <span style="font-size: 40px;float: right;color: #ccc; cursor: pointer;"
-                id="closeBtnn" onclick="closeApps()"
-                >&times;</span>
-            </header>
-            <form action="#">
-                <div style="display: flex;">
-                    <input style="font-size: 16px;height: 20px;" type="text" placeholder="enter firstname"><input style="font-size: 16px;height: 20px;" type="text" placeholder="enter lastname">
-                </div>
-                <div style="display: flex;">
-                    <input style="font-size: 16px;height: 20px;" type="number" placeholder="enter phoneNumber"><input style="font-size: 16px;height: 20px;" type="text" placeholder="enter Address">
-                </div>
-            </form>
-            
-        </div>
-    </div>
+    
+ 
     
     <script src="script.js"></script>
 </body>
