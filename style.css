@@ -1,4 +1,11 @@
-  
+ @media screen and (min-width:1025px){
+    .container, .container2,
+     .homeContainer,.homeContainer4,
+     .homeContainer5{
+        display: none;
+    }
+ }
+
 @media screen and (max-width: 650px) {
 
 
@@ -608,7 +615,7 @@ form .sin:hover{
         border: none;
         cursor: pointer;
     }
-    .period button:active, button:hover{
+    .active, button:hover{
         background-color:#03466E;
         color: #fff;
         cursor: pointer;
