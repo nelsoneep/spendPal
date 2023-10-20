@@ -33,39 +33,62 @@
         </ul> 
         <!-- page content -->
         <div class="scrollableDiv">
-            <div>
-                <p>Total expense</p>
-                <h2>$3479</h2>
-                <select name="" id="">
+            <div class="flowDisplay">
+                <div class="flowDisplayText">
+                    <p>Total expense</p>
+                    <h2>$3479</h2>
+                </div>
+
+                <select name="flow" id="flowSelect">
                     <option value="">Expenses</option>
                     <option value="">Income</option>
                 </select>
             </div>          
             <div id="expenses">
-                <div>
+                <div class="period">
                     <button>Weekly</button>
                     <button>Monthly</button>
                     <button>Yearly</button>
                 </div>
-                <div>
-                    graph image
+                <div class="graphLike">
+                    <img src="" alt="">
+                    <ul>
+                        <li>Mon</li>
+                        <li>Tue</li>
+                        <li>Wed</li>
+                        <li>Thurs</li>
+                        <li>Fri</li>
+                        <li>Sat</li>
+                        <li>Sun</li>
+                    </ul>
                 </div>
-                <div>
-                    <p>40% This week you`re spending more than usual </p>
+                <div class="messages">
+                    <p>
+                        
+                        <span style="color: red;">
+                            <!-- <span class="material-symbols-outlined">
+                                arrow_downward
+                            </span> -->
+                            40%</span> This week you`re spending more than usual
+                    </p>
                 </div>
-                <div>
+                <div class="bothFlows">
                     <div>
-                        <h3>#40,000</h3>
-                        <p>Expenses</p>
+                        <h2>#40,000</h2>
+                        <p><span style="color: red;" class="material-symbols-outlined">
+                                show_chart
+                            </span>Expenses</p>
                     </div>
-                    <div>|</div>
+                    <div class="divider"><span>|</span></div>
                     <div>
-                        <h3>#40,000</h3>
-                        <p>Expenses</p>
+                        <h2>#60,000</h2>
+                        <p><span  style="color: green;" class="material-symbols-outlined">
+                                show_chart
+                            </span>Expenses</p>
                     </div>
                 </div>
                 <div>
-                    <div>
+                    <div class="transaction">
                         <p>Recent Transactions</p>
                         <span>:</span>
                     </div>
