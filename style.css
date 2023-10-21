@@ -414,7 +414,7 @@
 }
 #netWorthDiv{
     display: flex;
-    background: #f0ada4;
+    /* background: #f0ada4; */
     gap: 6px;
     padding: 10px;
 }
